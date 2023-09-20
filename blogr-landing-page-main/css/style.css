@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.parent{
+    width: 1510px;
+    position: relative;
+    margin: 0px auto 0 auto 
+}
+
+
+.nav{
+    background-image: url(../images/bg-pattern-intro-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+    width: 1450px;
+    margin-left: 0er ;
+    padding: 30px;
+    border-radius:0 0 0 120px ;
+    background-color: hsl(353, 100%, 62%);
+}
+
+
+.nav h2{
+    color: hsl(0, 0%, 100%);
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav .left-nav a{
+    color: hsl(240, 19%, 95%);
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 370px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.right-nav{
+    display: flex;
+    left: 2px;
+}
+
+.right-nav nav button{
+    padding: 10px;
+    position: relative;
+    bottom: 58px;
+    left: 1200px;
+    text-decoration: none;
+
+}
+
+
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: hsl(353, 100%, 62%);
+    text-transform: capitalize;
+}
+
+
+#button:hover{
+    background-color: hsl(355, 100%, 74%);
+}
+
+.signup:hover{
+    color: whitesmoke;
+}
+
+
+
+
+.login{
+    color: hsl(240, 19%, 95%);
+    padding: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 1200px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#button{
+    background: none;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+
+
+.top-header{
+    text-align: center;
+    font-size: 3.0rem;
+    position: relative;
+    top: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.top-paragraph{
+    text-align: center;
+    font-size: 1.125rem;
+    position: relative;
+    top: 35px;
+    color: hsl(240, 19%, 95%);
+    
+}
+
+
+.start{
+    border-radius: 30px;
+    border-style: none;
+    position: relative;
+    left: 550px;
+    top: 90px;
+    padding: 10px;
+}
+
+
+.start a{
+    padding: 20px;
+    color: hsl(353, 100%, 62%);
+    text-decoration: none;
+}
+
+
+
+.start:hover{
+    background-color: hsl(355, 100%, 74%);
+}
+
+
+#start:hover{
+    color: hsl(240, 19%, 95%)
+}
+
+
+.learn a{
+    padding: 20px;
+    color: hsl(240, 19%, 95%);
+    text-decoration: none;
+}
+
+
+.learn{
+    background: none;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 16px;
+    position: relative;
+    padding: 6px;
+    left: 620px;
+    top: 90px;
+}
+
+.learn:hover{
+    background-color: hsl(240, 19%, 95%);
+    
+}
+
+
+#learn:hover{
+    color: hsl(355, 100%, 74%);
+}
+
+
+ 
+
+.middle-content{
+    background-color: hsl(0, 0%, 100%);
+    height: 575px;
+    width: 1450px;
+    padding: 30px;
+    
+}
+
+
+.grand-child{
+    height: 375px;
+    width: 500px;
+    padding: 10px;
+    margin-left: 130px;
+}
+
+
+
+#designed{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.introduction{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.blog-para{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+
+}
+
+
+.robust{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+
+
+.robust-para{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+
+
+.illustration{
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    right: 2px;
+    top: 450px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+
+}
+
+
+
+.child{
+    background-color: hsl(237, 17%, 21%);
+    height: 250px;
+    line-height: -4px;
+    width: 1488px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 0 150px 0 100px;
+
+}
+
+
+
+.phones{
+    background-image: url(../images/illustration-phones.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 380px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 60px;
+   
+}
+
+
+.words{
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    position: relative;
+    left: 770px;
+    bottom: 333px;
+}
+
+
+.state{
+    margin-top: 10px;
+    text-transform: capitalize;
+    line-height: 2;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.with{
+    color: hsl(240, 2%, 79%);
+}
+
+
+
+
+.bottom-container{
+    background-color: hsl(0, 0%, 100%);
+    height: 670px;
+    width: 1450px;
+    padding: 30px;
+}
+
+
+
+.desktop{
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 420px;
+    width: 420px;
+    position: relative;
+    top: 100px;
+    right: 30px
+}
+
+
+
+.content-b{
+    height: 325px;
+    width: 450px;
+    padding: 10px;
+    position: relative;
+    left: 800px;
+    bottom: 330px;
+   
+}
+
+
+.free{
+    margin-bottom: 30px;
+    color: hsl(240, 10%, 16%);
+
+}
+
+
+
+.open-source{
+    margin-top: 40px;
+    color: hsl(207, 13%, 34%);
+}
+
+
+
+.powerfull{
+    margin-top: 30px;
+    color: hsl(240, 10%, 16%);
+}
+
+
+.batteries{
+    margin-top: 30px;
+    color: hsl(207, 13%, 34%);
+}
+
+
+
+
+.footer{
+    background-color: hsl(240, 10%, 16%);
+    height: 295px;
+    width: 1490px;
+    padding: 10px;
+    border-radius: 0 90px 0 0 ;
+   
+}
+
+
+
+.footer h1{
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+    margin-left: 40px;
+}
+
+
+.flexbox{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    margin-left: 230px;
+    justify-content: space-around;
+    line-height: 2;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: hsl(240, 2%, 79%);
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.flexbox h4{
+    color: hsl(0, 0%, 100%);
+}
+
